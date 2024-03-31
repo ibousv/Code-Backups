@@ -1,0 +1,13 @@
+body {
+    margin: 50px;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10vh;
+}
+
+textarea {
+    border-radius: 10px;
+}
