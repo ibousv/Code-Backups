@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload Form</title>
+</head>
+
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <h2>Uploader un fichier</h2>
+        <label for="fileSelect">Nom du fichier :</label>
+        <input type="file" name="fichier">
+        <input type="submit" name="soumettre" value="Upload">
+
+        <p><strong>Note:</strong>Uniquement des fichiers pdf maximum 2Mo</p>
+
+    </form>
+</body>
+
+</html>
